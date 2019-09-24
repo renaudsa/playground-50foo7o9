@@ -1,5 +1,5 @@
 <?php
-include "Conditional.php";
+include "Conditional1.php";
 function test(){
   // Test exercice 1
   if(exercice1("bleu") == true && exercice1("rouge") == false){
