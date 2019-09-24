@@ -1,7 +1,9 @@
-title: PHP Project
+title: Exercices d'introduction à PHP
 plan:
-- title: PHP on Tech.io
+- title: Les conditions
   statement: markdowns/welcome.md
+- title: Les boucles
+  statement: markdowns/partie2.md
 projects:
   first-project:
     root: /php-template
