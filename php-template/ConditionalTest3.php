@@ -1,5 +1,5 @@
 <?php
-include "Conditional.php";
+include "Conditional3.php";
 function test(){
   // Test exercice 3
   if(exercice3(120) && exercice3(150) && exercice3(125) && !exercice3(151) && !exercice3(119)){
