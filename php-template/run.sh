@@ -1,1 +1,0 @@
-php UniverseTest.php
