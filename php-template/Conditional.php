@@ -1,7 +1,7 @@
 <?php
 
 // Si la couleur est "bleu" retourner true et sinon retourner false
-public function exercice1($couleur){
+function exercice1($couleur){
   // Compléter la condition
   if($couleur){
     return true;
@@ -11,7 +11,7 @@ public function exercice1($couleur){
 }
 
 // Cette fonction teste si la personne est majeure ou non pour l'autoriser à entrer sur un site
-public function exercice2($age){
+function exercice2($age){
   // Compléter la condition
   if($age){
     return true;
@@ -22,7 +22,7 @@ public function exercice2($age){
 
 // Un jeu n'est accessible que pour les enfants mesurant 120 à 150 cm.
 // Cette fonction doit tester si l'enfant à la bonne taille
-public function exercice3($taille){
+function exercice3($taille){
   // Compléter les conditions
   if($taille){ // Si la taille est inférieur à 120 cm
     return false;
@@ -35,7 +35,7 @@ public function exercice3($taille){
 
 // Un policier fait passer un test d'alcoolémie
 // Si de l'alcool est détecté il répond non sinon il répond oui au conducteur pour partir
-public function exercice4($alcool){
+function exercice4($alcool){
   // $alcool vaut true s'il y a de l'alcool et false sinon
   // écrivez la condition et retournez "oui" si alcool vaut true
   // retournez "non" si alcool vaut false
