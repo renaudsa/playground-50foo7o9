@@ -2,7 +2,7 @@
 
 include "Conditional.php";
 
-public function test(){
+function test(){
 
   // Test exercice 1
   if(exercice1("bleu") && !exercice1("rouge")){
