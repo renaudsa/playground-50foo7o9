@@ -27,3 +27,7 @@ echo $numero;
 // affiche 1
 ```
 
+Pour vous entrainer, résolvez les exercices suivants.
+Attention a être très précis et faire exactement ce que l'ennoncé demande.
+
+@[Exercice 1 ]({"stubs": ["Variable1.php"], "command": "/bin/bash runVariable1.sh"})
