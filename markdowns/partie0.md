@@ -31,3 +31,5 @@ Pour vous entrainer, résolvez les exercices suivants.
 Attention a être très précis et faire exactement ce que l'ennoncé demande.
 
 @[Exercice 1 ]({"stubs": ["Variable1.php"], "command": "/bin/bash runVariable1.sh"})
+
+@[Exercice 2 ]({"stubs": ["Variable2.php"], "command": "/bin/bash runVariable2.sh"})
