@@ -1,5 +1,7 @@
 title: Exercices d'introduction à PHP
 plan:
+- title: Variables
+  statement: markdowns/partie0.md
 - title: Les conditions
   statement: markdowns/welcome.md
 - title: Les boucles
