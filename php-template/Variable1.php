@@ -1,7 +1,11 @@
 <?php
 
-// initialisez la variable greeting avec la chaine "Hello world" pui affichez là
-$greeting;
+function exercice1(){
+  // initialisez la variable greeting avec la chaine "Hello world" puis affichez là
+  $greeting;
+  
+  
+}
 
 
 ?>
