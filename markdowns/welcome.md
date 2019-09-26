@@ -1,6 +1,4 @@
-# Bienvenue dans ce jeu de code PHP
-
-## Les conditions
+# Les conditions
 
 Vous devez compléter ou écrire le code des 4 fonctions suivantes. Aidez-vous des commentaires pour savoir ce que vous devez implémenter. Vous pouvez tester les exercices un par un en cliquant sur run.
 
