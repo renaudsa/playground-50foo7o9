@@ -9,7 +9,7 @@ function test(){
 
   ob_end_clean(); // End buffering and clean up
 
-  if($output = "Hello world"){
+  if($output == "Hello world"){
     echo("TECHIO> success true \r\n");
     echo("TECHIO> message --channel Bravo vous avez réussi l'exercice 1\r\n");
   }else{
