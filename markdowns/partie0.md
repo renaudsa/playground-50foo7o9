@@ -33,3 +33,34 @@ Attention a être très précis et faire exactement ce que l'ennoncé demande.
 @[Exercice 1 ]({"stubs": ["Variable1.php"], "command": "/bin/bash runVariable1.sh"})
 
 @[Exercice 2 ]({"stubs": ["Variable2.php"], "command": "/bin/bash runVariable2.sh"})
+
+
+Les chaines de caractères et les variables peuvent être assemblées pour afficher un texte dynamique. 
+En règle gnérale 2 chaines de caractères peuvent être collées l'une à l'autre à l'aide du "."
+
+On appelle cela la concaténation. Le "." est l'opérateur de concaténation.
+
+```php
+$taille = 1.66;
+
+echo 'Je mesure '.$taille.' metres';
+
+// Affiche : Je mesure 1.66 metres
+```
+
+On peut aussi insérer les variables directement dans les chaines de caractères si celles-ci sont entre double guillemets
+
+```php
+$taille = 1.66;
+
+echo "Je mesure $taille metres";
+
+// Affiche : Je mesure 1.66 metres
+```
+
+Continuez à pratiquer avec les exercices suivants
+
+@[Exercice 3 ]({"stubs": ["Variable3.php"], "command": "/bin/bash runVariable3.sh"})
+
+@[Exercice 4 ]({"stubs": ["Variable4.php"], "command": "/bin/bash runVariable4.sh"})
+
