@@ -19,6 +19,19 @@ $numero = 1;
 $maChaine = "une chaine de caractères";
 ```
 
+On distingue 4 types en PHP :
+- Les entiers : tous les chiffres et les nombres sans virgule
+- Les decimaux ou float : tous les chiffres à virgule (Attention la virgule est représentée par un point)
+- Les chaines de caracteres ou string en anglais
+- Les booleens : ne peut prendre que 2 valeurs true (vrai) ou false (faux)
+
+```php
+$number = 10; // entier
+$float = 5.75 // decimal
+$string = "une chaine de caractères";
+$bool = true;
+```
+
 Si on veut afficher le contenu d'une variable on peut utiliser la fonction echo:
 
 ```php
@@ -36,7 +49,7 @@ Attention a être très précis et faire exactement ce que l'ennoncé demande.
 
 
 Les chaines de caractères et les variables peuvent être assemblées pour afficher un texte dynamique. 
-En règle gnérale 2 chaines de caractères peuvent être collées l'une à l'autre à l'aide du "."
+En règle générale 2 chaines de caractères peuvent être collées l'une à l'autre à l'aide du "."
 
 On appelle cela la concaténation. Le "." est l'opérateur de concaténation.
 
