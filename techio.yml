@@ -2,8 +2,10 @@ title: Exercices d'introduction à PHP
 plan:
 - title: Variables
   statement: markdowns/partie0.md
+- title: Les booléens
+  statement: markdowns/partie0-5.md
 - title: Les conditions
-  statement: markdowns/welcome.md
+  statement: markdowns/partie1.md
 - title: Les boucles
   statement: markdowns/partie2.md
 projects:
