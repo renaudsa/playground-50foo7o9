@@ -1,8 +1,8 @@
-# Les booléens
+# Les boolÃ©ens
 
-Les booléens sont une analogie du circuit électronique : le courant passe correspond à true, le courant ne passe pas correspond à false.
+Les boolÃ©ens sont une analogie du circuit Ã©lectronique : le courant passe correspond Ã  true, le courant ne passe pas correspond Ã  false.
 
-Il n'ont que 2 états possibles : vrai ou faux, true ou false.
+Il n'ont que 2 Ã©tats possibles : vrai ou faux, true ou false.
 
 
 ```php
@@ -10,12 +10,12 @@ $bool1 = true;
 $bool2 = false;
 ```
 
-Comme les nombres, les booléens possèdes des opérateurs. C'est à dire qu'on peut les combiner et obtenir un résultat qui sera un autre booléen.
-Ces opérateurs sont des opérateurs logiques : le OU (||), le ET (&&), le NON(!)
+Comme les nombres, les boolÃ©ens possÃ¨des des opÃ©rateurs. C'est Ã  dire qu'on peut les combiner et obtenir un rÃ©sultat qui sera un autre boolÃ©en.
+Ces opÃ©rateurs sont des opÃ©rateurs logiques : le OU (||), le ET (&&), le NON(!)
 
 ## Le OU logique
 
-Le résultat d'un OU entre 2 booleens est vrai si l'un ou l'autre des opérandes est vrai.
+Le rÃ©sultat d'un OU entre 2 booleens est vrai si l'un ou l'autre des opÃ©randes est vrai.
 
 Exemple:
 ```php
@@ -40,13 +40,13 @@ echo ($bool1 || $bool2)
 // affiche true
 ```
 
-Pour visualiser le OU dans la vie courante vous pouvez penser à cet exemple :
+Pour visualiser le OU dans la vie courante vous pouvez penser Ã  cet exemple :
 
 Je veux me doucher. Si j'ai du savon ou du gel douche ou les deux je peux me laver. Par contre si je n'ai ni l'un ni l'autre je ne pourrais pas me laver.
 
 ## Le ET logique
 
-Le résultat d'un ET entre 2 booleens est vrai si l'un et l'autre des opérandes est vrai.
+Le rÃ©sultat d'un ET entre 2 booleens est vrai si l'un et l'autre des opÃ©randes est vrai.
 
 Exemple:
 ```php
@@ -71,14 +71,14 @@ echo ($bool1 && $bool2)
 // affiche true
 ```
 
-Pour visualiser le ET dans la vie courante vous pouvez penser à cet exemple :
+Pour visualiser le ET dans la vie courante vous pouvez penser Ã  cet exemple :
 
 Je veux manger un steack. Si je n'ai pas de couverts c'est impossible. Si j'ai une fourchette mais pas de couteau c'est impossible, si j'ai le couteau mais pas la fourchette c'est toujours impossible.
 Par contre si j'ai la fourchette ET le couteau, je vais vite manger ce steack!
 
 ## Le NON logique
 
-Le NON logique sert à inverser une valeur booléenne. 
+Le NON logique sert Ã  inverser une valeur boolÃ©enne. 
 
 Exemple:
 ```php
@@ -91,18 +91,18 @@ echo !bool2
 // affiche true
 ```
 
-## Pourquoi le booléen ?
+## Pourquoi le boolÃ©en ?
 
-Les booléens sont super puissants. C'est grâce à eux qu'on va pouvoir traduire une grande partie de notre logique cérébrale, notre pensée.
+Les boolÃ©ens sont super puissants. C'est grÃ¢ce Ã  eux qu'on va pouvoir traduire une grande partie de notre logique cÃ©rÃ©brale, notre pensÃ©e.
 
-Par exemple, vous vous demandez si vous êtes riche. La réponse est un booléen : oui je pense que je le suis, non je ne pense pas.
-Mais qu'est ce qui vous permet d'arriver à cette conclusion booléenne? 
+Par exemple, vous vous demandez si vous Ãªtes riche. La rÃ©ponse est un boolÃ©en : oui je pense que je le suis, non je ne pense pas.
+Mais qu'est ce qui vous permet d'arriver Ã  cette conclusion boolÃ©enne? 
 
-Imaginons que votre seuil pour vous considérer comme riche est de gagner 10 000 dollars par mois. Vous allez comparer votre salaire et 10 000 et si vous êtes au dessus vous penserez que vous êtes riche.
-Si vous êtes dessous vous vous sentirez pauvre.
-La machine est bête dans le sens où ce n'est pas elle qui va fixer ce seuil de 10 000 c'est vous. Et elle ne sera ni contente ni embêtée du résultat de cette comparaison. Ca se sont vos émotions.
+Imaginons que votre seuil pour vous considÃ©rer comme riche est de gagner 10 000 dollars par mois. Vous allez comparer votre salaire et 10 000 et si vous Ãªtes au dessus vous penserez que vous Ãªtes riche.
+Si vous Ãªtes dessous vous vous sentirez pauvre.
+La machine est bÃªte dans le sens oÃ¹ ce n'est pas elle qui va fixer ce seuil de 10 000 c'est vous. Et elle ne sera ni contente ni embÃªtÃ©e du rÃ©sultat de cette comparaison. Ca se sont vos Ã©motions.
 
-La programmation vous permets donc de traduire votre raisonnement logique mais c'est vous qui fixez les valeurs et les seuils et vous qui analyser ou ressentez le résultat.
+La programmation vous permets donc de traduire votre raisonnement logique mais c'est vous qui fixez les valeurs et les seuils et vous qui analyser ou ressentez le rÃ©sultat.
 
 Exemple :
 ```php
@@ -120,9 +120,9 @@ $resultat = ($monSalaire > $seuil)
 // Autrement dit je suis riche :)
 ```
 
-Vous l'avez compris, on génère souvent des booléens en comparant deux valeurs ou deux variables.
+Vous l'avez compris, on gÃ©nÃ¨re souvent des boolÃ©ens en comparant deux valeurs ou deux variables.
 
-Voici les opérateurs de comparaison courants :
+Voici les opÃ©rateurs de comparaison courants :
 ```php
 $a = 3;
 $b = 6;
@@ -142,7 +142,7 @@ echo $b >= $d; // Pus grand ou egal
 
 $c = "3";
 
-echo $a === $b; // strictement égal (en type et en valeur)
+echo $a === $b; // strictement Ã©gal (en type et en valeur)
 // Affiche false
 
 echo $a === $a;
